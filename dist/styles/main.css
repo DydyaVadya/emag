@@ -331,6 +331,7 @@ a {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 50px;
   justify-content: space-between;
   border: 1px solid red;
@@ -349,30 +350,29 @@ header {
     font-family: "Roboto", sans-serif;
     color: #999999; }
 
-.header__tel a {
-  line-height: 2; }
-
-.header__tel p {
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  color: #999999;
-  line-height: 1.09;
-  padding: 0;
-  margin: 0; }
-
-@media screen and (min-width: 576px) {
+.header__tel {
+  display: flex;
+  flex-direction: column;
+  min-width: 285px; }
+  .header__tel a {
+    line-height: 2; }
+  .header__tel p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #999999;
+    line-height: 1.09;
+    padding: 0;
+    margin: 0; }
+  @media screen and (min-width: 576px) {
     .container {
       max-width: 510px; } }
-
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .container {
       max-width: 690px; } }
-
-@media screen and (min-width: 992px) {
+  @media screen and (min-width: 992px) {
     .container {
       max-width: 930px; } }
-
-@media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     .container {
       max-width: 1110px; } }
 
