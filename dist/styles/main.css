@@ -332,6 +332,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
+  margin-bottom: 50px;
   justify-content: space-between;
   padding: 0 100px; }
   header a {
@@ -361,6 +362,56 @@ header {
     line-height: 1.09;
     padding: 0;
     margin: 0; }
+
+.screen-1 {
+  height: 800px;
+  background-image: url(../img/screen1.png);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-position: right;
+  padding: 0 0 0 100px;
+  justify-content: center; }
+
+.wrap__screen1__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 470px;
+  margin-right: 100px; }
+
+.screen1__title h1 {
+  font-size: 54.495px;
+  font-family: "Roboto", sans-serif;
+  color: #222222;
+  text-transform: uppercase;
+  line-height: 1.556; }
+
+.screen1__description {
+  font-size: 19.376px;
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+  line-height: 1.688; }
+
+.screen1__button {
+  width: 400px;
+  height: 80px;
+  background-image: -moz-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
+  background-image: -webkit-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
+  background-image: -ms-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px; }
+  .screen1__button p {
+    font-size: 20px;
+    font-family: "Roboto";
+    color: white;
+    line-height: 2.09;
+    text-align: center;
+    cursor: pointer; }
   @media screen and (min-width: 576px) {
     .container {
       max-width: 510px; } }
