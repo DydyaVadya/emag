@@ -308,8 +308,7 @@ body {
   font-size: 16px;
   max-width: 1920px;
   height: 100%;
-  margin: 0 auto;
-  border: 1px solid black; }
+  margin: 0 auto; }
 
 h1, h2, h3, h4, h5, h6, ul {
   padding: 0;
@@ -334,7 +333,6 @@ header {
   flex-wrap: wrap;
   margin-top: 50px;
   justify-content: space-between;
-  border: 1px solid red;
   padding: 0 100px; }
   header a {
     font-size: 24px;
