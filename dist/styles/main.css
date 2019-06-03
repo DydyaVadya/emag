@@ -574,19 +574,78 @@ header {
     font-family: "Roboto",sans-serif;
     color: #222222;
     line-height: 1.5; }
-  @media screen and (min-width: 576px) {
+
+.screen-5 {
+  min-height: 820px;
+  display: flex; }
+
+.screen5-item-wrap {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.screen5__item1 {
+  width: 50%; }
+  .screen5__item1 img {
+    object-fit: cover;
+    width: 100%; }
+
+.screen5__item2 {
+  display: flex;
+  flex-direction: column; }
+
+.screen5_item2_title {
+  display: flex;
+  align-items: center; }
+  .screen5_item2_title p {
+    font-size: 32px;
+    font-family: "Roboto",sans-serif;
+    color: #222222;
+    text-align: left;
+    margin-left: 20px; }
+
+.screen5_item2_description {
+  display: flex;
+  align-items: center; }
+  .screen5_item2_description p {
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    color: #444444;
+    text-align: left;
+    margin-left: 20px; }
+
+.screen5_item2_button {
+  width: 340px;
+  height: 70px;
+  font-size: 18px;
+  font-family: "Roboto",sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 2;
+  background-image: -moz-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
+  background-image: -webkit-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
+  background-image: -ms-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
+  box-shadow: 0px 20px 40px 0px rgba(255, 154, 0, 0.2);
+  border-radius: 50px; }
+
+@media screen and (min-width: 576px) {
     .container {
       max-width: 510px; } }
-  @media screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) {
     .container {
       max-width: 690px; } }
-  @media screen and (min-width: 992px) {
+
+@media screen and (min-width: 992px) {
     .container {
       max-width: 930px; } }
-  @media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1200px) {
     .container {
       max-width: 1110px; } }
-  @media screen and (max-width: 1032px) {
+
+@media screen and (max-width: 1032px) {
   .screen4-item2 {
     padding-bottom: 150px; }
   .screen4-item1 {
@@ -594,7 +653,8 @@ header {
   .screen-4 {
     background-repeat: no-repeat;
     background-size: cover; } }
-  @media screen and (max-width: 876px) {
+
+@media screen and (max-width: 876px) {
   .screen1__title p {
     font-size: 20px !important;
     text-align: center; }
