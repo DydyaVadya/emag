@@ -403,7 +403,6 @@ header {
 
 .screen1__button {
   max-width: 400px;
-  min-height: 80px;
   background-image: -moz-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
   background-image: -webkit-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
   background-image: -ms-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
@@ -656,7 +655,7 @@ header {
       max-width: 1110px; } }
   @media screen and (max-width: 1032px) {
   .screen4-item2 {
-    padding-bottom: 150px; }
+    padding-bottom: 200px; }
   .screen4-item1 {
     padding-top: 150px; }
   .screen-4 {
@@ -664,11 +663,11 @@ header {
     background-size: cover; } }
   @media screen and (max-width: 876px) {
   .screen1__title p {
-    font-size: 20px !important;
+    font-size: 30px !important;
     text-align: center; }
   .screen1__description p {
     text-align: center;
-    font-size: 10px; }
+    font-size: 14px; }
   .screen-1 {
     padding: 0px; }
   .header__tel {
@@ -688,6 +687,21 @@ header {
   .screen1__button p {
     padding: 0 20px; }
   .screen1__button {
-    margin-bottom: 30vh; } }
+    margin-bottom: 30vh; }
+  .screen5__item2 {
+    padding: 0 10px;
+    align-items: center; }
+  .screen-5 {
+    margin-top: -220px; }
+  .screen-3 {
+    width: 70%; }
+  header {
+    padding: 0; }
+  .screen1__button p {
+    font-size: 15px; }
+  .screen2__title {
+    font-size: 45px; }
+  .screen2__description {
+    font-size: 26px; } }
 
 /*# sourceMappingURL=maps/main.css.map */
