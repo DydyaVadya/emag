@@ -577,7 +577,8 @@ header {
 
 .screen-5 {
   min-height: 820px;
-  display: flex; }
+  display: flex;
+  margin-bottom: 50px; }
 
 .screen5-item-wrap {
   display: flex;
@@ -593,11 +594,14 @@ header {
 
 .screen5__item2 {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  min-height: 500px;
+  justify-content: space-between; }
 
 .screen5_item2_title {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 20px; }
   .screen5_item2_title p {
     font-size: 32px;
     font-family: "Roboto",sans-serif;
@@ -627,25 +631,31 @@ header {
   background-image: -webkit-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
   background-image: -ms-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
   box-shadow: 0px 20px 40px 0px rgba(255, 154, 0, 0.2);
-  border-radius: 50px; }
+  border-radius: 50px;
+  margin-top: 20px; }
 
-@media screen and (min-width: 576px) {
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  cursor: pointer; }
+  .header a {
+    color: grey; }
+  @media screen and (min-width: 576px) {
     .container {
       max-width: 510px; } }
-
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .container {
       max-width: 690px; } }
-
-@media screen and (min-width: 992px) {
+  @media screen and (min-width: 992px) {
     .container {
       max-width: 930px; } }
-
-@media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     .container {
       max-width: 1110px; } }
-
-@media screen and (max-width: 1032px) {
+  @media screen and (max-width: 1032px) {
   .screen4-item2 {
     padding-bottom: 150px; }
   .screen4-item1 {
@@ -653,8 +663,7 @@ header {
   .screen-4 {
     background-repeat: no-repeat;
     background-size: cover; } }
-
-@media screen and (max-width: 876px) {
+  @media screen and (max-width: 876px) {
   .screen1__title p {
     font-size: 20px !important;
     text-align: center; }
