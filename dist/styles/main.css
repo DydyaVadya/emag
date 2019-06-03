@@ -634,14 +634,13 @@ header {
   border-radius: 50px;
   margin-top: 20px; }
 
-.header {
+.footer {
   display: flex;
   justify-content: center;
-  width: 100%;
   height: auto;
   padding: 10px;
   cursor: pointer; }
-  .header a {
+  .footer a {
     color: grey; }
   @media screen and (min-width: 576px) {
     .container {
