@@ -511,7 +511,7 @@ header {
 
 .screen-4 {
   background-image: url(../img/screen4/bg-screen-4.png);
-  height: 992px;
+  min-height: 992px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -528,48 +528,52 @@ header {
 .screen4-item1 {
   display: flex;
   flex-direction: column;
-  margin: 0 30px; }
-  .screen4-item1::after {
-    content: "";
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    position: relative;
-    background-color: white;
-    top: -66px;
-    left: -18px; }
+  margin: 0 30px;
+  justify-content: space-around; }
   .screen4-item1 p {
     font-size: 32px;
     font-family: "Roboto", sans-serif;
     color: #222222;
-    line-height: 1.5; }
+    line-height: 1.5;
+    margin-left: 20px; }
   .screen4-item1 span {
     color: #e91e63; }
+
+.wrap_img_screen4 {
+  background-color: white;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .screen4-item2 {
   display: flex;
   flex-direction: column;
-  margin: 0 30px; }
+  margin: 0 30px;
+  text-align: right;
+  justify-content: space-around; }
+  .screen4-item2 .screen4__item {
+    justify-content: flex-end; }
   .screen4-item2 p {
     font-size: 32px;
     font-family: "Roboto",sans-serif;
     color: #222222;
-    line-height: 1.5; }
+    line-height: 1.5;
+    margin-right: 20px;
+    text-align: right; }
   .screen4-item2 span {
     color: #4caf50; }
 
 .screen4__item {
   display: flex;
   align-items: center; }
-  .screen4__item img {
-    z-index: 1; }
   .screen4__item p {
     font-size: 18px;
     font-family: "Roboto",sans-serif;
     color: #222222;
-    line-height: 1.5;
-    text-align: center;
-    margin-left: 20px; }
+    line-height: 1.5; }
   @media screen and (min-width: 576px) {
     .container {
       max-width: 510px; } }
@@ -582,5 +586,40 @@ header {
   @media screen and (min-width: 1200px) {
     .container {
       max-width: 1110px; } }
+  @media screen and (max-width: 1032px) {
+  .screen4-item2 {
+    padding-bottom: 150px; }
+  .screen4-item1 {
+    padding-top: 150px; }
+  .screen-4 {
+    background-repeat: no-repeat;
+    background-size: cover; } }
+  @media screen and (max-width: 876px) {
+  .screen1__title p {
+    font-size: 20px !important;
+    text-align: center; }
+  .screen1__description p {
+    text-align: center;
+    font-size: 10px; }
+  .screen-1 {
+    padding: 0px; }
+  .header__tel {
+    justify-content: center; }
+  header {
+    justify-content: center; }
+  .logo {
+    justify-content: center; }
+  .screen-1 {
+    height: auto; }
+  .wrap__screen1__content {
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    align-self: center; }
+  .screen1__button p {
+    padding: 0 20px; }
+  .screen1__button {
+    margin-bottom: 30vh; } }
 
 /*# sourceMappingURL=maps/main.css.map */
