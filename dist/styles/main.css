@@ -482,7 +482,7 @@ input {
   cursor: pointer; }
   .screen1__button p {
     font-size: 20px;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     color: white;
     line-height: 2.09;
     text-align: center; }
