@@ -772,6 +772,8 @@ input {
   .screen2__title {
     font-size: 45px; }
   .screen2__description {
-    font-size: 26px; } }
+    font-size: 26px; }
+  .autoplay img {
+    max-width: 100%; } }
 
 /*# sourceMappingURL=maps/main.css.map */
