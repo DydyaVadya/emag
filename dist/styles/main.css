@@ -679,7 +679,8 @@ input {
 
 .screen5_item2_description {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  width: 80%; }
   .screen5_item2_description p {
     font-size: 18px;
     font-family: "Roboto",sans-serif;
