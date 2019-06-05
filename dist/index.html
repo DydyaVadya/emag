@@ -35,6 +35,18 @@
 	        </div>
 	    
 	    </header>
+		<div class="modal__content">
+		
+		    <form action="" class="form" id="ajax" method="post">
+		        <h3 class="heading-3">Оставьте ваш номер телефона!</h3>
+		        <p class="subheading">Мы перезвоним вам в течение 15 минут</p>
+		        <input type="text" tabindex="0" pattern="^[A-Za-z,А-Яа-яЁё\s]{2,}" placeholder="Введите вашe имя" class="form__input" required>
+		        <input type="tel" tabindex="0" pattern="[0-9()-.^+\/*%^]{9,13}" placeholder="+380 __ ___ __ __" value="+380" required class="form__input">
+		        <button type="submit" class="btn btn-gray">Перезвоните мне</button>
+		        <p class="confidence">* Нажимая на кнопку, вы даёте согласие на обработку персональных данных</p>
+		        <div class="modal_close"></div>
+		    </form>
+		</div>
 		<div class="screen-1">
 		
 		    <div class="wrap__screen1__content">
@@ -47,7 +59,7 @@
 		                профессиональные инструменты и расходные<br>
 		                материалы для работы</p>
 		        </div>
-		        <div class="screen1__button">
+		        <div id="modal" class="screen1__button">
 		<p>ОТКРЫТЬ ЛИЧНЫЙ КАБИНЕТ</p>
 		        </div>
 		    </div>
@@ -217,9 +229,9 @@
 		            <p>С таким подходом вы сами распоряжаетесь своим временем как вам удобно — не в<br> ущерб работе и личным планам.
 		            </p>
 		        </div>
-		        <a href="#" class="screen5_item2_button">
+		        <div id="modal1" href="#" class="screen5_item2_button">
 		<p>ОТКРЫТЬ ЛИЧНЫЙ КАБИНЕТ</p>
-		        </a>
+		        </div>
 		
 		    </div>
 		    </div>
