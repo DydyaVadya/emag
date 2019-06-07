@@ -867,7 +867,8 @@ input {
     align-items: center;
     width: 100%; }
   .screen-5 {
-    margin-top: -220px; }
+    margin-top: -220px;
+    padding-bottom: 50px; }
   .screen-3 {
     width: 70%; }
   header {
