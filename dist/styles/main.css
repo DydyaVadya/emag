@@ -702,7 +702,8 @@ input {
   background-image: -ms-linear-gradient(0deg, #ff9800 0%, #ffc107 100%);
   box-shadow: 0px 20px 40px 0px rgba(255, 154, 0, 0.2);
   border-radius: 50px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  cursor: pointer; }
 
 .screen-6 {
   display: flex;
