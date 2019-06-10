@@ -943,7 +943,7 @@ input {
       padding-top: 50px; }
     .screen-9 .screen9_wrap .description_screen9 {
       font-size: 18px;
-      font-family: "Roboto";
+      font-family: "Roboto",sans-serif;
       color: #444444;
       line-height: 2.667;
       text-align: center; }
