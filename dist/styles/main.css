@@ -709,8 +709,7 @@ input {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  margin-bottom: -120px; }
+  width: 100%; }
 
 .title_screen6_wrap {
   display: flex;
@@ -781,7 +780,15 @@ input {
   align-items: center;
   background-repeat: no-repeat;
   flex-direction: column;
-  background-size: cover; }
+  background-size: cover;
+  padding: 50px 0; }
+
+.screen7_wrap {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 50px; }
 
 .title_screen7_wrap {
   display: flex;
@@ -863,12 +870,99 @@ input {
       align-self: center;
       margin: 0 auto; }
 
-.footer {
+.screen-8 {
   display: flex;
   justify-content: center;
+  border-bottom: 0.1px solid #eaeaea;
+  width: 100%;
+  min-height: 430px;
+  position: relative; }
+  .screen-8 .screen8_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: end;
+    position: absolute;
+    top: -140px; }
+    .screen-8 .screen8_wrap .item1_screen8 {
+      width: 35%;
+      min-width: 250px; }
+      .screen-8 .screen8_wrap .item1_screen8 img {
+        object-fit: cover;
+        width: 100%; }
+    .screen-8 .screen8_wrap .item2_screen8 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 47%;
+      min-width: 250px; }
+      .screen-8 .screen8_wrap .item2_screen8 .screen8_item2_title {
+        font-size: 32px;
+        font-family: "Roboto",sans-serif;
+        color: #222222;
+        line-height: 1.5; }
+      .screen-8 .screen8_wrap .item2_screen8 .screen8_item2_description {
+        display: flex;
+        align-items: center; }
+        .screen-8 .screen8_wrap .item2_screen8 .screen8_item2_description p {
+          font-size: 18px;
+          font-family: "Roboto",sans-serif;
+          color: #444444;
+          line-height: 1.5;
+          padding-left: 10px; }
+
+.screen-9 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 0.1px solid #eaeaea;
+  min-height: 600px; }
+  .screen-9 .screen9_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    position: relative; }
+    .screen-9 .screen9_wrap img {
+      z-index: -1;
+      position: absolute;
+      bottom: -60px;
+      width: 100%;
+      object-fit: cover; }
+    .screen-9 .screen9_wrap .title_screen9 {
+      font-size: 32px;
+      font-family: "Roboto",sans-serif;
+      color: #222222;
+      line-height: 1.5;
+      text-align: center;
+      padding-top: 50px; }
+    .screen-9 .screen9_wrap .description_screen9 {
+      font-size: 18px;
+      font-family: "Roboto";
+      color: #444444;
+      line-height: 2.667;
+      text-align: center; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
   height: auto;
   padding: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  padding: 0 20px;
+  align-items: center; }
+  .footer .terms_footer {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #ff9800;
+    text-align: center; }
+  .footer p {
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    color: #444444;
+    text-align: center; }
   .footer a {
     color: grey;
     display: flex;
@@ -887,14 +981,22 @@ input {
     @media screen and (min-width: 1200px) {
     .container {
       max-width: 1110px; } }
-    @media screen and (max-width: 1032px) {
+    @media screen and (max-width: 1227px) {
   .screen4-item2 {
     padding-bottom: 200px; }
   .screen4-item1 {
     padding-top: 150px; }
   .screen-4 {
     background-repeat: no-repeat;
-    background-size: cover; } }
+    background-size: cover; }
+  .screen-6 {
+    margin-bottom: 200px; }
+  .screen-7 {
+    margin-bottom: 100px;
+    margin-top: -440px;
+    padding-bottom: 110px; }
+  .screen7_wrap {
+    margin-top: 310px; } }
     @media screen and (max-width: 876px) {
   .screen1__title p {
     font-size: 30px !important;
@@ -952,6 +1054,16 @@ input {
     margin-top: -440px;
     padding-bottom: 110px; }
   .title_screen7_wrap {
-    padding-top: 500px; } }
+    padding-top: 130px; }
+  .item_screen7_wrap .delivery_wrap_item_screen7 {
+    justify-content: center; }
+  .item_screen7_wrap .payment_wrap_item_screen7 {
+    justify-content: center; }
+  .screen-8 .screen8_wrap {
+    justify-content: center;
+    position: unset;
+    margin-top: -90px; }
+  .footer a, .footer p {
+    font-size: 10px; } }
 
 /*# sourceMappingURL=maps/main.css.map */
